@@ -1,0 +1,21 @@
+{
+  "name": "lucania-light",
+  "version": "1.0.0",
+  "description": "Lucania Light Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "keywords": [
+    "Lucania",
+    "Light"
+  ],
+  "author": "Maja Vojt",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

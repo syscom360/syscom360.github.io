@@ -1,0 +1,389 @@
+
+
+   /* ============================================================
+Front Page
+  ============================================================ */
+
+
+ 
+.centered {
+  height: 100%;
+  min-height: 100%;
+top:-50px;
+}
+
+  /* ============================================================
+    SECTIONS
+  ============================================================ */
+
+
+
+
+
+main {
+  overflow-x: hidden;
+  margin-left: 15px;
+  margin-right: 15px;
+
+}
+
+
+ /* ============================================================
+    SECTIONS
+  ============================================================ */
+
+
+#home{
+  opacity: 0;
+
+  -webkit-transition: opacity 1.2s ease-in;
+  -moz-transition: opacity 1.2s ease-in;
+   -ms-transition: opacity 1.2s ease-in;
+    -o-transition: opacity 1.2s ease-in;
+       transition: opacity 1.2s ease-in;
+}
+
+  /*HOME*/
+
+ 
+
+.jumbotron {
+  
+  background: transparent;
+
+  &--intro{
+
+ 
+ padding-top: 250px;
+
+
+
+ @media (min-width: 992px) {  padding-top: 450px;
+
+}
+}
+
+
+
+
+@media (min-width: 992px) {  padding-top: 350px; }
+
+
+&--lets-get {
+  padding-top: 20px;
+  @media (min-width: 992px) {  padding-top: 0px; }
+}
+
+}
+
+
+
+
+.introtext  .lead {
+    
+  font-size: 1.67rem;
+    max-width: 900px;
+    margin: auto;
+
+    @media (min-width: 992px) {    font-size: 2rem;
+    }
+}
+
+  
+
+
+.jumbotrontext {
+    margin: auto;
+    text-align: center;
+    transition: 1s ease;
+    -moz-transition: 1s ease;
+    -webkit-transition: 1s ease;
+
+  }
+
+.introbutton {
+padding-top: 40px;
+
+
+ @media (min-width: 992px) {
+   
+  padding-top: 200px;
+ 
+  }
+}
+
+
+
+/*lichtplanung*/
+#lichtplanung, #projekte, #team, #kontakt-formular, #fragenbogen, #leistungen {
+  padding: 80px 0  30px 0;
+  transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  padding: 80px 0  50px 0;
+
+
+  @media (min-width: 992px) {
+    padding: 120px 0 50px 0;
+  }
+}
+
+
+.parallax-1 {
+
+height: 100vh;
+    background-image: url("../images/lucania_light_projekt_bg02.jpg");
+    background-position: 0 0;
+background-attachment: fixed;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.48);
+background-blend-mode: darken;
+    background-repeat: no-repeat;
+
+  }
+
+
+ .parallax-2 {
+  height: 50vh;
+  background-image: url("../images/lucania_light_projekt_bg01.jpg");
+  background-position: 0 0 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.48);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  transform: translateZ(-1px) scale(2);
+   -moz-transform: translateZ(-1px) scale(2);
+   -webkit-transform: translateZ(-1px) scale(2);
+margin-top: -50px;
+
+}
+
+.parallax-22 {
+  height: 5vh;
+  background-image: url("../images/lucania_light_projekt_bg01.jpg");
+  background-position: 0 -80px 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.48);
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  transform: translateZ(-1px) scale(2);
+   -moz-transform: translateZ(-1px) scale(2);
+   -webkit-transform: translateZ(-1px) scale(2);
+
+
+}
+
+
+ /*TEAM/Büro*/
+
+#team, #lichtplanung, #projekte, #leistungen{
+  transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+.parallax {
+
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+
+#leistungen {
+  margin-bottom: -110px;
+}
+ 
+
+.parallax-4 {
+  height: 100vh;
+  z-index:-1;
+      background-position: 0 0 0 0;
+  background-attachment: absolute;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.48);
+  background-blend-mode: screen;
+      background-repeat: no-repeat;
+      background-image: url("../images/lucania_light_projekt_bg04.jpg");
+      transform: translateZ(-1px) scale(2);
+      -moz-transform: translateZ(-1px) scale(2);
+      -webkit-transform: translateZ(-1px) scale(2);
+}
+
+    .bgimage {
+      background-repeat: no-repeat;
+  
+    }
+
+
+      .introtext { 
+
+        padding-top: 3rem;
+        @media (min-width: 992px) {  
+padding-top: 10vh;
+        }
+  }
+
+  
+
+
+
+
+/*Kontakt*/
+
+
+.parallax-3 {
+  height: 40vh;
+      background-position: 0 0 0 0;
+      background-image: url("../images/lucania_light_projekt_bg03.jpg");
+      background-position: 0 0;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: rgba(0, 0, 0, 0.48);
+      background-blend-mode: screen;
+          background-repeat: no-repeat;
+
+    }
+
+
+
+    .bgimage { 
+ 
+     &--lets-get {
+  background-image: url("../images/lucania_light_projekt_bg03.jpg");
+  margin-top: 0px;
+  background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.48);
+  background-blend-mode: saturation;
+      background-repeat: no-repeat;
+     
+
+
+     }
+  &--showroom {
+    background-image: url("../images/lucania_light_projekt_bg03.jpg");
+    background-position: 0 0;
+background-attachment: fixed;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.48);
+background-blend-mode: saturation;
+    background-repeat: no-repeat;
+   
+&__extra{
+  margin-top: -50px;
+  padding-top: 18vh;
+
+
+}
+   
+  }
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+.partner {
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  img{
+    margin: 20px;
+    
+  }
+}
+
+
+.footer {
+ height: 60px;
+}
+
+
+
+
+/********************/
+/*Privat*/
+
+.privat-parallax-1 {
+
+  height: 100vh;
+    background-image: url("../images/lucania_light_privat_bg01.jpg");
+    background-position: 0 0;
+background-attachment: fixed;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.48);
+background-blend-mode: screen;
+    background-repeat: no-repeat;
+}
+
+
+.privat-parallax-2 {
+
+  
+    height: 50vh;
+    background-image: url("../images/lucania_light_privat_bg03.jpg");
+    background-position: 0 0 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.48);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    transform: translateZ(-1px) scale(2);
+     -moz-transform: translateZ(-1px) scale(2);
+     -webkit-transform: translateZ(-1px) scale(2);
+  margin-top: -50px;
+  
+  }
+  
+  .privat-parallax-22 {
+    height: 5vh;
+    background-image: url("../images/lucania_light_privat_bg03.jpg");
+    background-position: 0 -80px 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.48);
+    background-blend-mode: screen;
+    background-repeat: no-repeat;
+    transform: translateZ(-1px) scale(2);
+     -moz-transform: translateZ(-1px) scale(2);
+     -webkit-transform: translateZ(-1px) scale(2);
+  
+  
+  }
+
+
+  .bgimage {
+    &--privat {
+      background-image: url("../images/lucania_light_privat_bg02.jpg");
+      background-position: 0 0;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.48);
+  background-blend-mode: saturation;
+      background-repeat: no-repeat;
+     
+  &__extra{
+    margin-top: -50px;
+    padding-top: 18vh;
+  
+  
+  }}}

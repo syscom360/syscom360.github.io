@@ -1,0 +1,78 @@
+#map {
+    height: 100%;
+  }
+
+.anfahrt2 {
+    width: 95%;
+    height: 600px;
+    min-height: 410px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    border: 0;
+
+
+
+}
+
+
+
+.anfahrt1 {
+    width: 90%;
+    height: 600px;
+    min-height: 410px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    border: 0;
+    margin-top: 40px;
+
+
+}
+
+.social-links  {
+cursor: pointer;
+margin-top: 20px;
+
+
+.nav-link img {
+    height: 31px;
+    width: 31px;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+    @media (min-width: 992px) {  height: 55px;
+        width: 55px; }
+    
+}
+
+}
+
+
+
+
+.nav-link img:hover {
+	background: rgba(255,255,255,0.05);
+	-webkit-transform: scale(0.93);
+	-moz-transform: scale(0.93);
+	-ms-transform: scale(0.93);
+	transform: scale(0.93);
+	color: #fff;
+}
+
+
+
+.social-nav {
+    margin-top: -35px;
+    @media (min-width: 992px) { margin-top: 0px; padding-bottom: 20px;}
+
+    &--white{
+        a {
+            color: #fff;
+
+            &:first-child {
+                padding-right: 0;
+            }
+        }
+    }
+    
+}
